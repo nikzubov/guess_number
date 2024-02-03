@@ -7,5 +7,7 @@ while True:
     guess = int(input('Введите число: '))
     if guess == random:
         break
+    elif guess != random:
+        print('побробуйте ещё')
 
 print('Угадал!')
